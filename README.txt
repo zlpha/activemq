@@ -61,3 +61,10 @@ Licensing
    <http://java.sun.com/javase/technologies/security/>.  ActiveMQ does 
    not include these libraries itself, but is designed to use them.
 
+AWS Test
+=======================================================================
+git checkout -b activemq-5.14.0 activemq-5.14.0
+export MAVEN_OPTS=-Xmx1024M
+mvn clean install -Dmaven.test.skip=true
+
+> http://activemq.apache.org/version-5-getting-started.html#Version5GettingStarted-UnixSourceInstallation
